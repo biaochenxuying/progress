@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <title>进度条示例</title>
+    <style type="text/css">
+      .container {
+        border: 1px solid #6c9c2c;
+        min-height: 300px;
+        padding: 30px;
+        margin: 10px;
+      }
+      .p {
+        height: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      pre {
+        border: 1px solid #eee;
+        background-color: #dce6f0;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>使用默认参数：</p>
+      <pre>
+          var p6 = new Progress();
+          p6.init({ mountedId: '#bar6' });
+      </pre>
+      <div class="p" id="bar6"></div>
+      <p>单独传参：</p>
+      <pre>
+          var config5 = {
+            mountedId: '#bar5',
+            target: 8,
+            step: 1,
+            color: 'green',
+            fontSize: "20px",
+            borderRadius: "5px",
+            backgroundColor: '#eee',
+            barBackgroundColor: 'red',
+          };
+          var p5 = new Progress();
+          p5.init(config5);
+      </pre>
+      <div class="p" id="bar5"></div>
+      <p>批量：</p>
+      <pre>
+          for (let i = 1; i < 5; i++) {
+            var config = {
+              mountedId: '#bar' + i,
+              target: (i + 5) * 10,
+              step: i,
+              color: 'red',
+              fontSize:  20 + i + "px",
+              borderRadius: i + 5 + 'px',
+              backgroundColor: '#eee',
+              barBackgroundColor: '#' + "f" + i + i,
+            };
+            var p = new Progress();
+            p.init(config);
+          }
+      </pre>
+      <div class="p" id="bar1"></div>
+      <div class="p" id="bar2"></div>
+      <div class="p" id="bar3"></div>
+      <div class="p" id="bar4"></div>
+    </div>
+    <script src="./progress.js"></script>
+    <script type="text/javascript">
+
+      var p6 = new Progress();
+      p6.init({ mountedId: '#bar6' });
+
+      var config5 = {
+        mountedId: '#bar5',
+        target: 8,
+        step: 1,
+        color: 'green',
+        fontSize: "20px",
+        borderRadius: "5px",
+        backgroundColor: '#eee',
+        barBackgroundColor: 'red',
+      };
+      var p5 = new Progress();
+      p5.init(config5);
+
+      for (let i = 1; i < 5; i++) {
+        var config = {
+          mountedId: '#bar' + i,
+          target: (i + 5) * 10,
+          step: i,
+          color: 'red',
+          fontSize:  20 + i + "px",
+          borderRadius: i + 5 + 'px',
+          backgroundColor: '#eee',
+          barBackgroundColor: '#' + "f" + i + i,
+        };
+        var p = new Progress();
+        p.init(config);
+      }
+    </script>
+  </body>
+</html>
