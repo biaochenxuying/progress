@@ -154,12 +154,13 @@ github ：[https://github.com/biaochenxuying/blog](https://github.com/biaochenxu
 
 如果您觉得这篇文章不错或者对你有所帮助，请给个赞呗，你的点赞就是对我最大的鼓励，谢谢。
 
-> 微信公众号：**BiaoChenXuYing**
-> 分享 前端、后端开发等相关的技术文章，热点资源，随想随感，全栈程序员的成长之路。
-关注公众号并回复 **福利** 便免费送你视频资源，绝对干货。
-福利详情请点击：  [免费资源分享--Python、Java、Linux、Go、node、vue、react、javaScript](https://mp.weixin.qq.com/s?__biz=MzA4MDU1MDExMg==&mid=2247483711&idx=1&sn=1ffb576159805e92fc57f5f1120fce3a&chksm=9fa3c0b0a8d449a664f36f6fdd017ac7da71b6a71c90261b06b4ea69b42359255f02d0ffe7b3&token=1560489745&lang=zh_CN#rd)
+对 **全栈修炼** 有兴趣的朋友可以扫下方二维码关注我的公众号
+ 
+我会不定期更新有价值的内容，长期运营。
 
-![BiaoChenXuYing](https://upload-images.jianshu.io/upload_images/12890819-091ccce387e2ea34.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+关注公众号并回复 **福利** 可领取免费学习资料，福利详情请猛戳：  [Python、Java、Linux、Go、node、vue、react、javaScript](https://biaochenxuying.cn/articleDetail?article_id=5bf4ba3c245730373274df61)
+
+![全栈修炼](https://upload-images.jianshu.io/upload_images/12890819-bce9560fec5c49ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
